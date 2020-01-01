@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="1."
+                android:id="@+id/tvnum"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/tvtitle"
+                android:text=""
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+        <ImageView
+            android:src="@mipmap/fanhui" android:layout_width="match_parent"
+            android:id="@+id/imgshow"
+            android:visibility="gone"
+            android:layout_margin="20dp"
+            android:layout_height="200dp">
+
+        </ImageView>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/rg"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_a"
+                android:layout_width="wrap_content"
+
+                android:text=""
+                android:layout_height="wrap_content"></RadioButton>
+
+
+            <RadioButton
+                android:id="@+id/rb_b"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:layout_height="wrap_content"></RadioButton>
+
+
+
+
+            <RadioButton
+                android:visibility="gone"
+                android:id="@+id/rb_c"
+                android:layout_width="wrap_content"
+                android:text=""
+
+                android:layout_height="wrap_content"></RadioButton>
+
+
+
+
+            <RadioButton
+                android:id="@+id/rb_d"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:text=""
+
+                android:layout_height="wrap_content"></RadioButton>
+
+
+
+
+
+        </RadioGroup>
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

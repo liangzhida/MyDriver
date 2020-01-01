@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@mipmap/cuo"
+        android:id="@+id/img_touxiang"
+        android:layout_height="30dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="阿萨德"
+                android:id="@+id/tvname"
+                android:layout_height="wrap_content"></TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="right"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                   android:layout_marginRight="30dp"
+                    android:text="2222"
+                    android:id="@+id/tvdianzuannum"
+                    android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="6684668"
+            android:id="@+id/tvcomment"
+            android:layout_height="wrap_content"></TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

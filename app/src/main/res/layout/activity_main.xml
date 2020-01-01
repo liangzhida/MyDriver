@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="驾考题库"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:id="@+id/viewpager"
+                android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#6E6E6E"
+            android:layout_height="1dp"></LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <RadioGroup
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:id="@+id/rg"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rb_jiakao"
+                    android:layout_width="0dp"
+                    android:drawableTop="@drawable/jiakaoselector"
+                    android:textColor="@drawable/textselector"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:text="驾考"
+                    android:layout_height="wrap_content"></RadioButton>
+                <RadioButton
+                    android:id="@+id/rb_zixun"
+                    android:layout_width="0dp"
+                    android:drawableTop="@drawable/zixunselector"
+                    android:layout_weight="1"
+                    android:textColor="@drawable/textselector"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:text="资讯"
+                    android:layout_height="wrap_content"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rb_me"
+                    android:drawableTop="@drawable/meselector"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:textColor="@drawable/textselector"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="我的"></RadioButton>
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

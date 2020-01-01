@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+
+
+    </style>
+    <style name="CustomRadioBtnA">
+                <item name="android:gravity">center</item>
+                <item name="android:background">@drawable/a</item>
+                <item name="android:button">@null</item>
+            </style>
+    <style name="CustomRadioBtnB">
+                <item name="android:gravity">center</item>
+                <item name="android:background">@drawable/b</item>
+                <item name="android:button">@null</item>
+            </style>
+    <style name="CustomRadioBtnC">
+                <item name="android:gravity">center</item>
+                <item name="android:background">@drawable/c</item>
+                <item name="android:button">@null</item>
+            </style>
+    <style name="CustomRadioBtnD">
+                <item name="android:gravity">center</item>
+                <item name="android:background">@drawable/d</item>
+                <item name="android:button">@null</item>
+            </style>
+
+
+
+</resources>
